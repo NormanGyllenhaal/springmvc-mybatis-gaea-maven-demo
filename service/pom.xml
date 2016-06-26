@@ -9,7 +9,13 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>site.lovecode</groupId>
     <artifactId>service</artifactId>
+    <packaging>jar</packaging>
+
+    <properties>
+        <test.version>1.0-SNAPSHOT</test.version>
+    </properties>
 
     <dependencies>
         <dependency>

@@ -12,7 +12,7 @@ import java.util.List;
 public class DaoTest {
 
 
-    @Test
+    //@Test
     public void userTest(){
         ApplicationContext ctx = new FileSystemXmlApplicationContext("classpath*:applicationContext-*.xml");
         UserMapper userMapper = (UserMapper) ctx.getBean("userMapper");
